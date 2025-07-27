@@ -10,7 +10,12 @@ public class Main {
 
 
         String userName = getUser().name;
+        String userSurName = getUser().surname;
+        int userAge = getUser().age;
+
         System.out.println("User Name: " + userName);
+        System.out.println("User SurName: " + userSurName);
+        System.out.println("User Age: " + userAge);
 
     }
 
