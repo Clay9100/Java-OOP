@@ -9,13 +9,12 @@ public class Main {
         // this is lesson class in print objects
 
 
-        String userName = getUser().name;
-        String userSurName = getUser().surname;
-        int userAge = getUser().age;
+        User userName = getUser();
 
-        System.out.println("User Name: " + userName);
-        System.out.println("User SurName: " + userSurName);
-        System.out.println("User Age: " + userAge);
+        System.out.println("User Name: " + userName.name);
+        System.out.println("User Surname: " + userName.surname);
+        System.out.println("User Age: " + userName.age);
+
 
     }
 
