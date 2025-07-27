@@ -10,13 +10,24 @@ public class Main {
         String str = "Hello";
         String strObj = new String("Hello");*/
 
-        User user1 = new User();
-        user1.name = "Ali";
-        user1.surname = "Aliyev";
-        user1.age = 23;
+        User ali = new User();
+        ali.name = "Ali";
+        ali.surname = "Aliyev";
+        ali.age = 23;
+        ali.infoUser();
 
-        User user2 = new User();
-        User user3 = new User();
+        User bobur = new User();
+        bobur.name = "Bobur";
+        bobur.surname = "Barnoyev";
+        bobur.age = 12;
+        bobur.infoUser();
+
+
+        User lola = new User();
+        lola.name = "Lola";
+        lola.surname = "Lochinova";
+        lola.age = 20;
+        lola.infoUser();
 
 
 
