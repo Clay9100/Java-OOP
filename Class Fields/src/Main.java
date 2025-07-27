@@ -5,6 +5,12 @@ public class Main {
 
         // this is lesson class fields
 
+        int n = 89;
+
+        String str = "Hello";
+        String strObj = new String("Hello");
+
+
 
 
 
