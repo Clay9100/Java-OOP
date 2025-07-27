@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Class Fields/Class Fields.iml" filepath="$PROJECT_DIR$/Class Fields/Class Fields.iml" />
       <module fileurl="file://$PROJECT_DIR$/Class Methods/Class Methods.iml" filepath="$PROJECT_DIR$/Class Methods/Class Methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Class Methods_2/Class Methods_2.iml" filepath="$PROJECT_DIR$/Class Methods_2/Class Methods_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Class Print Objects/Class Print Objects.iml" filepath="$PROJECT_DIR$/Class Print Objects/Class Print Objects.iml" />
       <module fileurl="file://$PROJECT_DIR$/Class and Object/Class and Object.iml" filepath="$PROJECT_DIR$/Class and Object/Class and Object.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java-OOP.iml" filepath="$PROJECT_DIR$/Java-OOP.iml" />
