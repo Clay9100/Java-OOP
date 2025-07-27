@@ -11,9 +11,12 @@ public class Main {
 
         User userName = getUser();
 
-        System.out.println("User Name: " + userName.name);
+        /*System.out.println("User Name: " + userName.name);
         System.out.println("User Surname: " + userName.surname);
-        System.out.println("User Age: " + userName.age);
+        System.out.println("User Age: " + userName.age);*/
+
+        String surname = Arrays.toString(userName.name.split(" "));
+        System.out.println(surname);
 
 
     }
