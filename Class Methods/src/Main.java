@@ -11,5 +11,13 @@ public class Main {
         user1.age = 20;
         user1.userInfo();
 
+        User user2 = new User();
+        user2.name = "Komil";
+        user2.surname = "Komilov";
+        user2.age = 45;
+        user2.userInfo();
+
+
+
     }
 }
