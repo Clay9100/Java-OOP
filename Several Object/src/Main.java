@@ -30,6 +30,11 @@ public class Main {
         System.out.println(user3.name + " " +  user3.surname + " " + user3.age);
 
 
+        System.out.println("------Change object user3 name------");
+
+        user3.name = "Axrorbek";
+
+        System.out.println(user3.name + " " +  user3.surname + " " + user3.age);
 
 
 
