@@ -7,14 +7,24 @@ public class Main {
 
         // this is lesson Reassign value
 
-        User user = new User();
-        user.name = "Ali";
-        user.surname = "Ali";
-        user.age = 23;
+        User ali = new User();
+        ali.name = "Ali";
+        ali.surname = "Ali";
+        ali.age = 23;
 
-        String name = String.format("name: %s surname: %s and age: %d", user.name,user.surname,user.age);
+        String name = String.format("name: %s surname: %s and age: %d", ali.name,ali.surname,ali.age);
 
         System.out.println(name);
+
+        User alibek = new User();
+        alibek.name = "Alibek";
+        alibek.surname = "Alijonov";
+        alibek.age =28;
+
+        String strAlibek = String.format("name: %s surname: %s and age: %d", alibek.name,alibek.surname,alibek.age);
+
+        System.out.println(strAlibek);
+
 
 
 
