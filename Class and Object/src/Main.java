@@ -6,7 +6,11 @@ public class Main {
         // this is lesson class and objects
 
         User user = new User();
+        user.name = "Oppog'oy";
+        user.surname = "Bidillajonova";
+        user.age = 25;
         user.infoUser();
+
 
 
     }
