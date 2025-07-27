@@ -3,8 +3,7 @@ public class User{
     String name;
     String surname;
     int age;
-
-
+    boolean isEmployee;
     @Override
     public String toString() {
         return name + " " + surname + " " + age;
@@ -22,5 +21,15 @@ public class User{
             age /= 10;
         }
         return summa;
+    }
+
+    public String checkIsEmployee() {
+        /*if (isEmployee) {
+            return "Yes";
+        }else  {
+            return "No";
+        }*/
+
+        return isEmployee? "Yes" : "No";
     }
 }

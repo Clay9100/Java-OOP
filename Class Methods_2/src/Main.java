@@ -8,10 +8,12 @@ public class Main {
         user.name = "James";
         user.surname = "Smith";
         user.age = 25;
+        user.isEmployee = false;
 
         System.out.println("user = " + user.toString());
         System.out.println("userToUpperCase = " + user.toUpperCase());
         System.out.println("userAge summa number = " + user.summaAgeNumber());
+        System.out.println("user is Employee = " + user.checkIsEmployee());
 
     }
 }
