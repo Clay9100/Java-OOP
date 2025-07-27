@@ -5,6 +5,8 @@ public class Main {
 
         // this is lesson class and objects
 
+        User user = new User();
+        user.infoUser();
 
 
     }
